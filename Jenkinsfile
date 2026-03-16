@@ -44,7 +44,7 @@ pipeline {
 
         stage('Verify Site') {
             steps {
-                sh 'curl -I http://localhost'
+                sh 'curl -I http://34.238.248.222/wordpress/'
             }
         }
     }
