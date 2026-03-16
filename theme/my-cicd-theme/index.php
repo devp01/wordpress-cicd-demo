@@ -17,7 +17,7 @@
 
     <p>This WordPress theme was automatically deployed via Jenkins CI/CD.</p>
 
-    <p>Try editing this file, push to GitHub, and watch it update automatically.</p>
+    <p>Try editing this file, push to GitHub, and watch it update automatically......</p>
 </div>
 
 <footer>
