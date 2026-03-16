@@ -36,7 +36,7 @@ pipeline {
                 sh '''
                 sudo rm -rf $THEME_DIR
                 sudo mkdir -p $THEME_DIR
-                sudo cp -r my-cicd-theme/* $THEME_DIR/
+                sudo cp -r theme/my-cicd-theme/* $THEME_DIR/
                 sudo chown -R www-data:www-data $THEME_DIR
                 '''
             }
