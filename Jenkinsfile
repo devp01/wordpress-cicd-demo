@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/wordpress-cicd-demo.git'
+                git branch: 'main', url: 'https://github.com/devp01/wordpress-cicd-demo.git'
             }
         }
 
